@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    padding: 10px 20px;
+}
+
+header > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+header > nav > ul {
+    list-style-type: none;
+}
+
+header > nav > ul > li > a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+header > nav > ul > li > a:hover {
+    color: white;
+}
+
+main {
+    width: fit-content;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-size: 1.2rem;
+}
+
+main > h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+}
+
+main > p {
+    line-height: 1.4em;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#errors {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(147, 0, 0);
+    background-color: rgba(255, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+
+#criar-conta-login-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 30px;
+}
+
+#criar-conta-login-container h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+#criar-conta-login-container p {
+    line-height: 1.4em;
+    margin-bottom: 1.5rem;
+}
+
+#criar-conta-login-container > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin-bottom: 5px;
+}
+
+.input-field {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.form input[type="submit"] {
+    align-self: center;
+    background-color: rgb(35, 35, 35);
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    color: white;
+}
